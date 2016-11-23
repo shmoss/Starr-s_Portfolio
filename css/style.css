@@ -1,0 +1,27 @@
+.portfolio-thumb{
+	height: 300px;
+	width: 300px;
+	border: 1px dashed blue;
+	background-color: transparent;
+	
+	
+}
+
+.brightness {
+    background-color: black;
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .5;
+}
+
+
+
+
+.portfolio-full{
+	width:60%;
+	float:right;
+	right: 200px;
+	
+}
