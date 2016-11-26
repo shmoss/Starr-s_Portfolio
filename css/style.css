@@ -1,25 +1,10 @@
-.portfolio-thumbnail{
-
-	border:none;
+.portfolio-thumb{
+	height: 370px;
+	width: 370px;
+	border: none;
+	background-color: transparent;
 	
 	
-}
-
-.thumbnail.portfolio-thumbnail{
-
-	border:none;
-	
-	
-} 
-
-.portfolio-thumbnail-img{
-
-	border:none;
-	
-	
-}	
-.col-md-4 {
-	border:none;
 }
 
 .row{
@@ -90,8 +75,8 @@
 	text-align:center;
 	padding-top: 150px;
 	opacity: .8;
-	width:359.98px;
-	height:359.98px;
+	width:340px;
+	height:370px;
 	bottom:50px;
 	top:-20px;
 
