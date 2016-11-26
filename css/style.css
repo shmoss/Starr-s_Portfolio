@@ -1,10 +1,25 @@
-.portfolio-thumb{
-	height: 300px;
-	width: 300px;
-	border: none;
-	background-color: transparent;
+.portfolio-thumbnail{
+
+	border:none;
 	
 	
+}
+
+.thumbnail.portfolio-thumbnail{
+
+	border:none;
+	
+	
+} 
+
+.portfolio-thumbnail-img{
+
+	border:none;
+	
+	
+}	
+.col-md-4 {
+	border:none;
 }
 
 .row{
@@ -59,8 +74,9 @@
 	background: black;
 	color: white;
 	text-align:center;
+	vertical-align:center;
 	font-size:24px;
-	padding:100px;
+	
 	font-weight: bold;
 	/*text-shadow:0px 0px 20px #fff;*/
 
@@ -72,42 +88,13 @@
 	visibility: visible;
 	position: absolute;
 	text-align:center;
-	padding:100px;
+	padding-top: 150px;
 	opacity: .8;
-	width:268px;
-	height:300px;
+	width:359.98px;
+	height:359.98px;
 	bottom:50px;
 	top:-20px;
 
 }
 
-.image-overlay2 {
-	display: inline-block;
-	position: relative;
-
-	opacity:.9;
-	background: black;
-	color: white;
-	text-align:center;
-	font-size:24px;
-	padding:100px;
-	font-weight: bold;
-	/*text-shadow:0px 0px 20px #fff;*/
-
-	visibility: hidden;
-	
-}
-
-.portfolio-thumb:hover .image-overlay2 {
-	visibility: visible;
-	position: absolute;
-	text-align:center;
-	padding:100px;
-	opacity: .8;
-	width:300px;
-	height:300px;
-	bottom:50px;
-	top:-20px;
-
-}
 
