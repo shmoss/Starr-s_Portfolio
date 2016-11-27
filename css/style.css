@@ -1,15 +1,18 @@
 .portfolio-thumb{
-	height: 370px;
-	width: 370px;
+	height: 310px;
+	width: 310px;
 	border: none;
 	background-color: transparent;
+	margin-top:20px;
 	
 	
 }
 
 .row{
 	position:center;
+	
 }
+
 
 #syria_title {
     opacity: 0;
@@ -61,7 +64,7 @@
 	text-align:center;
 	vertical-align:center;
 	font-size:24px;
-	
+	bottom:-100px;
 	font-weight: bold;
 	/*text-shadow:0px 0px 20px #fff;*/
 
@@ -73,12 +76,13 @@
 	visibility: visible;
 	position: absolute;
 	text-align:center;
+	
 	padding-top: 150px;
 	opacity: .8;
-	width:340px;
-	height:370px;
-	bottom:50px;
-	top:-20px;
+	width:330px;
+	height:360px;
+	bottom:-100px;
+	top:0px;
 
 }
 
