@@ -1,12 +1,4 @@
-.portfolio-thumb{
-	height: 310px;
-	width: 310px;
-	border: none;
-	background-color: transparent;
-	margin-top:20px;
-	
-	
-}
+
 
 .row{
 	position:center;
@@ -42,7 +34,24 @@
 }
 .brightness img:hover {
     opacity: .5;
+
 }
+
+
+.carousel-caption:hover (.brightness{
+	opacity: .5;
+)
+}
+
+.carousel-caption {
+    color:white;
+    text-align:center;
+    display:inline-block;
+    position:absolute;
+
+
+}
+
 
 
 
@@ -54,36 +63,43 @@
 	
 }
 
-.image-overlay {
-	display: inline-block;
-	position: relative;
+.thumbnail {
+	max-width: 360px;
+	max-height: 360px;
+}
 
-	opacity:.9;
-	background: black;
-	color: white;
+.image-overlay {
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	
 	text-align:center;
-	vertical-align:center;
-	font-size:24px;
-	bottom:-100px;
+	
+	color: white;
 	font-weight: bold;
 	/*text-shadow:0px 0px 20px #fff;*/
 
 	visibility: hidden;
-	
+	opacity: 0;
 }
 
-.portfolio-thumb:hover .image-overlay {
+.thumbnail:hover .image-overlay {
 	visibility: visible;
-	position: absolute;
-	text-align:center;
 	
-	padding-top: 150px;
-	opacity: .8;
-	width:330px;
-	height:360px;
-	bottom:-100px;
-	top:0px;
-
 }
 
+.portfolio-thumbnail{
+	color:black;
+	
+}
+
+.row, .portfolio-content{
+	margin-bottom: 8%;
+	text-align: center;
+}
+
+.portfolio-content{
+	padding: 0px;
+
+}	
 

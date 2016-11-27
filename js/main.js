@@ -1,9 +1,18 @@
+
+
+
+
+console.log("Running main.js v1.0 as javascript front-end");
 $(document).ready(function(){
-	$(".img-responsive portfolio-thumb").find(".carousel-caption").hide();
-	$(".img-responsive portfolio-thumb").mouseenter(function(){
+	$(".portfolio-content").find(".carousel-caption").hide();
+	$(".brightness").mouseenter(function(){
 		$(this).find(".carousel-caption").show();
 	});
-$(".img-responsive portfolio-thumb").mouseleave(function(){
+	$(".brightness").mouseleave(function(){
 		$(this).find(".carousel-caption").hide();
-});
+	});
+
+
+
+
 })
